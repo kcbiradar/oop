@@ -41,6 +41,7 @@ class InsertQuery {
             System.out.println("inserted\n");
 
         } catch(Exception e) {
+            System.out.println("Unable to connect check your code once");
             e.printStackTrace();
         }
     }
